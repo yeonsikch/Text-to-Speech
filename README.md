@@ -1,5 +1,6 @@
 # Text-to-Speech
-TTS (Glow-TTS + HiFi-GAN)
+TTS (Glow-TTS + HiFi-GAN)<br>
+본 프로젝트는 [SCE-TTS](https://sce-tts.github.io/#/v2/index)를 베이스로하여 진행하였음
 # 음성 녹음
 - [여기](https://drive.google.com/file/d/1qWWBVerugPedNvaUbqYqwPhbIvWXnFxN/view?usp=sharing)에서 프로그램 설치<br>
 - 대략 1시간 ~ 2시간 분량 녹음하면 되고, 이는 약 1000 ~ 2000문장이 됨
