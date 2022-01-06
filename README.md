@@ -7,12 +7,12 @@ TTS (Glow-TTS + HiFi-GAN)
 1. 2번째 녹음부터 저장이 되지 않는 에러 발생
   - 원인 : 저장되는 `metadata.txt` 파일이 중복되어 발생
   - 해결방법 : 실시간으로 생성되는 `metadata.txt`를 `metadata_1.txt`와 같이 변경해주면 됨
-  - (Python Code)[https://github.com/yeonsikch/Text-to-Speech/blob/main/prevent_error.ipynb]로 이를 해결
+  - [Python Code](https://github.com/yeonsikch/Text-to-Speech/blob/main/prevent_error.ipynb)로 이를 해결
   - 후에 위 코드를 통해 모든 텍스트 파일을 하나로 합치는 작업을 진행
 2. 녹음이 잘 되지 않는 에러 발생
   - 해결방법 : 5번 녹음할때마다 페이지 새로고침
 # 모델 학습
-- (Glow-TTS)[https://github.com/yeonsikch/Text-to-Speech/blob/main/train_glowtts_v2.ipynb]를 통해 `Text`를 `MelSpectrogram`으로 인코딩하는 부분을 학습함
-- (HiFi-GAN)[https://github.com/yeonsikch/Text-to-Speech/blob/main/train_hifigan_v2.ipynb]을 통해 `MelSpectrogram`을 `Audio`로 보코딩하는 부분을 학습함
+- [Glow-TTS](https://github.com/yeonsikch/Text-to-Speech/blob/main/train_glowtts_v2.ipynb)를 통해 `Text`를 `MelSpectrogram`으로 인코딩하는 부분을 학습함
+- [HiFi-GAN](https://github.com/yeonsikch/Text-to-Speech/blob/main/train_hifigan_v2.ipynb)을 통해 `MelSpectrogram`을 `Audio`로 보코딩하는 부분을 학습함
 * 각 모델의 본 코드는 위 코드 내에서 `git clone`을 통해 설치하도록 되어있음
 * 학습 시간 대략 각각 2~4시간이면 가능함(GPU 2080Ti * 1 기준)
